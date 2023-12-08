@@ -116,4 +116,19 @@ def parrot_trouble(talking, hour):
 
 ### makes10
 
+Given 2 integers, a + b, return True if one of them is 10 or if their sum is 10.
+
+```python
+def makes10(a,b):
+    sum = a + b
+    return ((a == 10) or (b == 10) or (sum == 10))
+    
+```
+<strong>Another version:</strong>
+
+```python
+def makes10(a,b):
+    return (a == 10 or b == 10 or a+b == 10)
+
+```
 
