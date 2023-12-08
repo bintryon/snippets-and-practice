@@ -102,4 +102,29 @@ def parrot_trouble(talking, hour):
 ```
 
 
-###
+### diff21
+
+Given an int `n`. return the absolute difference between `n` and 21, except return double the absolute difference if `n` is over 21.
+
+```python
+
+def diff21(n):
+    if (n < 21):
+        difference = 21 - n
+        return difference
+    else:
+        (n > 21)
+        d_difference = 2 * (n - 21)
+        return d_difference
+```
+
+<strong>Another version:</strong>
+
+```python
+def diff21(n):
+    if (n <= 21):
+        return (21 - n)
+    else:
+        return 2 * (n - 21 )
+```
+
