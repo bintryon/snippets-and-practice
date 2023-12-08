@@ -133,3 +133,21 @@ def makes10(a,b):
 ```
 
 ### near_hundred
+
+Given an int `n`, return True if it is within 10 of 100 or 200. 
+
+```python
+def near_hundred(n):
+    return abs(100 - n) <= 10 or abs(200 - n) <= 10
+```
+<strong>Another version:</strong>
+```python
+def near_hundred(n):
+    if abs(100 - n) <= 10:
+        return True
+    elif abs(200 - n) <= 10:
+        return True
+    else:
+        return False
+
+```
