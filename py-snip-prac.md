@@ -141,6 +141,7 @@ def near_hundred(n):
     return abs(100 - n) <= 10 or abs(200 - n) <= 10
 ```
 <strong>Another version:</strong>
+
 ```python
 def near_hundred(n):
     if abs(100 - n) <= 10:
@@ -150,4 +151,13 @@ def near_hundred(n):
     else:
         return False
 
+```
+
+### pos_neg
+
+Given 2 int values, return True if one is negative and one is positive. Except if the parameter "negative" is True, then return only if both are negative.
+
+```python
+def pos_neg(a,b,negative:
+    
 ```
