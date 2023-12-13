@@ -158,6 +158,7 @@ def near_hundred(n):
 Given 2 int values, return True if one is negative and one is positive. Except if the parameter "negative" is True, then return only if both are negative.
 
 ```python
-def pos_neg(a,b,negative:
-    
+def pos_neg(a,b,negative):
+
 ```
+https://codingbat.com/prob/p162058
